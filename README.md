@@ -12,8 +12,8 @@
   width="100%"
   height="700">
 </tableau-viz>
-## Radial Graph
-<p>Description Here</p>
+## Comparing  Features from the Most Popular and Least Popular songs
+<p>In the visualization below we have created a radial chart that has the song features as its axes, which are Energy, Valence, Acousticness, Speechiness, Instrumentalness, Danceability. We averaged the top 5 most popular songs and created a chart and did the same with the bottom 5 popular songs and overlayed them to see the correlation, we can see that more viral songs have a lot more energy and valence while the lower popular ones tend to have a lot of speech and acoustic qualities to them.</p>
 <tableau-viz
   id="tableauViz"
   src="https://public.tableau.com/views/lebron_17750753180420/Sheet1"
