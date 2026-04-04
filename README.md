@@ -22,3 +22,14 @@
   width="100%"
   height="700">
 </tableau-viz>
+## Comparison of Attributes on Spotify vs. TikTok
+<p>Comparing Song Attributes Between Spotify and TikTok:
+In the visualization below, we map the selected musical attribute to the vertical position of each point, where each line represents a single song that trended on both Spotify and TikTok. This slope chart allows us to see how a song’s profile changes between platforms by toggling the attribute menu.</p>
+<tableau-viz
+  id="tableauViz"
+  src="https://public.tableau.com/shared/6JD3PC7W7"
+  toolbar="bottom"
+  hide-tabs
+  width="100%"
+  height="700">
+</tableau-viz>
