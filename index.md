@@ -25,7 +25,7 @@
 </tableau-viz>
 <tableau-viz
   id="tableauViz"
-  src="https://public.tableau.com/views/TikTok_Songs/Dashboard1/Dashboard%202#2"
+  src="https://public.tableau.com/views/TikTok_Songs/Dashboard2"
   toolbar="bottom"
   hide-tabs
   width="100%"
