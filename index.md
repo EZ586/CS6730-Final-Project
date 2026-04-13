@@ -48,6 +48,7 @@
   width="100%"
   height="700"
 >
+</tableau-viz>
 ## Artist Popularity
 This interactive bubble chart quantifies artist dominance on TikTok. The size of each bubble shows the dominance of an artist in the charts, more hits they have, larger they are. The color intensity represents the average virality of their tracks, this allows us to see that the darker colored circles have a higher average ranking on the chart. Use the filter on the right to compare the trends of 2020 against 2021 and identify the artists who have been wildly successful in either or both years. 
 <tableau-viz
