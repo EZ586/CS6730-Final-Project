@@ -19,12 +19,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr; /* 2 columns */
     grid-template-rows: 1fr 1fr; /* 2 rows */
-    gap: 20px;
+    gap: 16px;
   }
 
 tableau-viz {
 width: 100%;
-height: 400px;
+height: 35vh;
 }
 </style>
 
