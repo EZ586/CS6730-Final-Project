@@ -8,11 +8,7 @@
 ## Correlating Loudness to Track Popularity
 
 <p>
-  In the visualization below, we map loudness to the intensity of the color and
-  popularity to the size of the circle where each circle represents a song. This
-  packed bubble chart would allow us to see if loudness correlates to the
-  popularity of a song. From it, we can see relationships such as whether or not
-  a louder song makes it more likely to be popular.
+  In the visualization below, we map the four features (loudness, energy, speechiness, danceability) to the intensity of the color and the track popularity to the size of the circle. 
 </p>
 <tableau-viz
   id="tableauViz"
@@ -52,6 +48,16 @@
   width="100%"
   height="700"
 >
+## Artist Popularity
+This interactive bubble chart quantifies artist dominance on TikTok. The size of each bubble shows the dominance of an artist in the charts, more hits they have, larger they are. The color intensity represents the average virality of their tracks, this allows us to see that the darker colored circles have a higher average ranking on the chart. Use the filter on the right to compare the trends of 2020 against 2021 and identify the artists who have been wildly successful in either or both years. 
+<tableau-viz
+  id="tableauViz"
+  src="https://public.tableau.com/views/StephCurry_17756816904900/Sheet1"
+  toolbar="bottom"
+  hide-tabs
+  width="100%"
+  height="700"
+>
 </tableau-viz>
 ## Comparison of Attributes on Spotify vs. TikTok
 <p>
@@ -64,6 +70,15 @@
 <tableau-viz
   id="tableauViz"
   src="https://public.tableau.com/shared/6JD3PC7W7"
+  toolbar="bottom"
+  hide-tabs
+  width="100%"
+  height="700"
+>
+</tableau-viz>
+<tableau-viz
+  id="tableauViz"
+  src="https://public.tableau.com/app/profile/akash.misra/viz/CorrMap/Sheet1"
   toolbar="bottom"
   hide-tabs
   width="100%"
