@@ -12,7 +12,7 @@
 </p>
 <tableau-viz
   id="tableauViz"
-  src="https://public.tableau.com/views/TikTok_Songs/Dashboard1#1"
+  src="https://public.tableau.com/views/TikTok_Songs/Sheet10"
   toolbar="bottom"
   hide-tabs
   width="100%"
@@ -77,6 +77,10 @@ This interactive bubble chart quantifies artist dominance on TikTok. The size of
   height="700"
 >
 </tableau-viz>
+## Correlation Heatmap for Tik-Tok Songs
+<p>
+This correlation heat map allows us to see how different features of the music data correlate with each other. For example, we can see strong positive correlation between Loudness and Energy, and also see strong negative correlation between Acousticness and Energy. This helps us see how songs on TikTok tend to trend in general, and we can also use the correlations with track popularity to see what features correlate more positively vs negatively with track popularity on TikTok.
+</p>
 <tableau-viz
   id="tableauViz"
   src="https://public.tableau.com/views/CorrMap/Sheet1"
