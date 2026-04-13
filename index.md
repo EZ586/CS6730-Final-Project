@@ -14,38 +14,15 @@
   popularity of a song. From it, we can see relationships such as whether or not
   a louder song makes it more likely to be popular.
 </p>
-<style>
-  .viz-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* 2 columns */
-    grid-template-rows: 1fr 1fr; /* 2 rows */
-    gap: 16px;
-  }
-
-tableau-viz {
-width: 100%;
-height: 35vh;
-}
-</style>
-
-<div class="viz-grid">
-  <tableau-viz
-    src="https://public.tableau.com/views/TikTok_Songs/Sheet1"
-    toolbar="bottom"
-  ></tableau-viz>
-  <tableau-viz
-    src="https://public.tableau.com/views/TikTok_Songs/Sheet2"
-    toolbar="bottom"
-  ></tableau-viz>
-  <tableau-viz
-    src="https://public.tableau.com/views/TikTok_Songs/Sheet1"
-    toolbar="bottom"
-  ></tableau-viz>
-  <tableau-viz
-    src="https://public.tableau.com/views/TikTok_Songs/Sheet2"
-    toolbar="bottom"
-  ></tableau-viz>
-</div>
+<tableau-viz
+  id="tableauViz"
+  src="https://public.tableau.com/views/TikTok_Songs/Dashboard1#1"
+  toolbar="bottom"
+  hide-tabs
+  width="100%"
+  height="700"
+>
+</tableau-viz>
 
 ## Comparing Features from the Most Popular and Least Popular songs
 
