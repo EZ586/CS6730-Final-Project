@@ -23,6 +23,15 @@
   height="700"
 >
 </tableau-viz>
+<tableau-viz
+  id="tableauViz"
+  src="https://public.tableau.com/views/TikTok_Songs/Dashboard1/Dashboard%202#1"
+  toolbar="bottom"
+  hide-tabs
+  width="100%"
+  height="700"
+>
+</tableau-viz>
 
 ## Comparing Features from the Most Popular and Least Popular songs
 
