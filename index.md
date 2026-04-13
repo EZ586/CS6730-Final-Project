@@ -5,10 +5,10 @@
   src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"
 ></script>
 
-## Correlating Loudness to Track Popularity
+## Correlating Song Features with Track Popularity
 
 <p>
-  In the visualization below, we map the four features (loudness, energy, speechiness, danceability) to the intensity of the color and the track popularity to the size of the circle. 
+  In the visualization below, we use a histogram to group the songs into bins according to track popularity. From this, we can see how the average feature values in each bins differ which allows us to analyze how these features correlate to changes in track popularity. In the chart, we can see how the most popular songs are louder in general as it is a less negative decibal. Songs that have less speechiness tend to be more popular while for energy and danceability, these features stay around the same level across all popularity bins.
 </p>
 <tableau-viz
   id="tableauViz"
@@ -19,6 +19,8 @@
   height="700"
 >
 </tableau-viz>
+## Correlating Song Features with Artist Popularity
+In this visualization, we use a scatter plot to map the relationship between each of the 4 features with artist popularity. This is done to see if trends that exist at the song level also exist at the artist level. When comparing artist popularity to these features, it can be seen that for loudness, the least popular artists have significantly less louder songs. This same trend can be seen in energy where the least popular artists generally make lower energy songs. For danceability, there seems to be no definite trends as the more popular songs have a wide range of danceability levels. For speechiness. most of the more popular artists have low speechiness while the outlier less popular artists have a significantly higher level of speechiness. 
 <tableau-viz
   id="tableauViz"
   src="https://public.tableau.com/views/TikTok_Songs/Dashboard2"
