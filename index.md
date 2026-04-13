@@ -22,10 +22,10 @@
     gap: 20px;
   }
 
-  tableau-viz {
-    width: 100%;
-    height: 400px;
-  }
+tableau-viz {
+width: 100%;
+height: 400px;
+}
 </style>
 
 <div class="viz-grid">
