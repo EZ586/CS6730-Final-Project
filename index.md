@@ -5,7 +5,7 @@
   src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"
 ></script>
 
-## Correlating Song Features with Track Popularity
+## Introduction
 
 <p>
 The goals of this project are to assess whether TikTok is a good indicator of overall music popularity and to examine how data characteristics on TikTok may contribute to a song's popularity. We intend to do this by analyzing data of songs on TikTok as well as Spotify, and see if different features of that data, when visualized, reveal correlative insights to us about the songs. Some examples of features that can lead to a correlation to popularity could be the energy and loudness of a song, which are data collected and included in our dataset. We will use the visualizations and analysis to communicate to the viewers what exactly a song being popular on TikTok means for its general popularity. We will also show whether or not certain features contribute more to a song’s overall popularity. Currently, we have an intensity visualization which shows popularity and loudness of songs, looking for a potential correlation, as well as a radial chart that shows how the most popular and least popular songs correlate with different features of the music, revealing correlations. We intend to expand with more detailed visualizations and analysis as the project progresses.
