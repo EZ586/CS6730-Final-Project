@@ -79,7 +79,7 @@ This interactive bubble chart quantifies artist dominance on TikTok. The size of
 </tableau-viz>
 <tableau-viz
   id="tableauViz"
-  src="https://public.tableau.com/app/profile/akash.misra/viz/CorrMap/Sheet1"
+  src="https://public.tableau.com/views/CorrMap/Sheet1"
   toolbar="bottom"
   hide-tabs
   width="100%"
